@@ -1,0 +1,13 @@
+＠各種セットアップ
+・windows8.1のインストール
+
+＠各種ツールインストール
+・Ruby2.2
+　F:\install\Ruby22-x64
+・Sublime Text 3
+　F:\install\Sublime Text 3
+・TeraPad
+　F:\install\TeraPad
+・GitHubWindows
+　C:\Users\kazuho\AppData\Local\GitHub
+　ID:ippokk
