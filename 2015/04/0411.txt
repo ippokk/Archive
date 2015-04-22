@@ -1,0 +1,7 @@
+＠課題2
+・続き
+　ラベリング用に作成した二次元配列labelMatを使用しないアルゴリズムへの変更
+　リファクタリング
+　グローバル変数を持たない形式に変更
+　→完了
+　　C:\Users\kazuho\Documents\Visual Studio 2013\Projects\kadai2\Debug\kadai2_fin

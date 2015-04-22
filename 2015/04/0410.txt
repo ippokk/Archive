@@ -1,0 +1,13 @@
+＠インストール
+　office2013
+
+＠VS2013,opencv環境構築
+　http://www.buildinsider.net/small/opencv/　参照
+・pathの追加
+　F:\install\opencv-2.4.9\build\x86\vc12\bin;
+
+　※プロパティ
+　　インクルードディレクトリ追加
+　　　F:\install\opencv-2.4.9\build\include;
+　　ライブラリディレクトリ追加
+　　　F:\install\opencv-2.4.9\build\x86\vc12\lib;
