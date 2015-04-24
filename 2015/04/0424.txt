@@ -1,0 +1,38 @@
+＠python環境構築
+・opencvの利用
+　http://yamada-program.blogspot.jp/2011/05/pythonsetuptools-64bit.html
+　http://www.aoki.ecei.tohoku.ac.jp/~ito/python_windows.html　参照
+　－Numpy,SciPyインストール時にレジストリを64bit版に変更
+
+　※ERROR
+　　DLL load failed: %1 は有効な Win32 アプリケーションではありません。
+　numpy,Scipyが64bit版に対応してない問題
+
+・最終手順
+　0.　pipのインストール
+　1.　wheelのインストール
+　　https://pypi.python.org/pypi/wheel/
+　　pip install wheel-0.23.0.tar.gz
+　2.　64bit版のパッケージをダウンロード
+　　http://www.lfd.uci.edu/~gohlke/pythonlibs/
+　3.　pip install *.whl
+
+　－numpy,scipy,opencvのインストール
+　　→実行を確認
+
+＠Casperの作成
+　http://www.kameda-lab.org/_local/imagelab.tsukuba.ac.jp/ubuntu1204/setup-j.html　参照
+　→起動まで確認
+
+＠Python-Opencv
+・http://python-gazo.blog.jp/opencv/　のサンプルテスト
+
+＠unity
+・敵の実装
+・敵のあたり判定と弾丸の消失の実装
+・3dオブジェクトの衝突レイヤーを変更
+・マテリアルの大きさの関係で全体サイズを縮小する
+
+next
+　パーティクルサイズの変更について調べる
+　→ゲームサイズを決定

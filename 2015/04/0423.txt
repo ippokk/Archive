@@ -1,0 +1,10 @@
+＠環境構築
+・casperのダウンロード
+　http://www.kameda-lab.org/_local/imagelab.tsukuba.ac.jp/ubuntu1204/index-j.html
+　2013Summer　540(16G)
+・casper構成用ダウンロード
+　Universal USB Installer (UUI)　ver1.9.3.5
+　ubuntu-14.04.2-desktop-amd64.iso
+　F:\install\casper\*
+・python2.7.9ダウンロード
+　F:\install\Python27
