@@ -1,0 +1,4 @@
+＠SPTKの導入
+・問題点
+　pitch.cは<unistd.h>をインクルードしているためVC++のnmakeでコンパイルできない
+→cygwinでのコンパイルを試みる

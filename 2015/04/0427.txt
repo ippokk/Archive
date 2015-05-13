@@ -1,0 +1,29 @@
+＠SPTKのインストール
+・解凍用にLhaplus 1.73をインストール
+　F:\install\Lhaplus
+・SPTKを解凍
+　F:\install\Python27\download\SPTK-3.5
+・SPTKのコンパイルにcygwinをインストール
+　F:\install\cygwin
+
+※失敗
+　*.cのコンパイルに失敗する.
+　matファイルがVS2013で開けない
+　→ubuntsでの実行を試す?
+
+＠matplotlibのインストール
+・F:\install\Python27\download\matplotlib-1.4.3-cp26-none-win_amd64.whl
+　pipでのwhlインストールができなかったためhttp://matplotlib.org/downloads.htmlのexeより
+
+＠Linux環境の作成
+・Oracle VM VirtualBoxのインストール
+　F:\install\VirtualBox
+・ubunts14.04環境の設定
+・画面サイズを自動変更するように設定
+・64bit版の認証方法
+　http://qiita.com/kmats@github/items/a2396aa5b6f397d447b8
+
+＠PCの動作改善
+・コンピューターの管理→サービス→Superfetchの無効化
+・ネットワーク接続のipv6の無効化
+・chromeを64bit版に変更

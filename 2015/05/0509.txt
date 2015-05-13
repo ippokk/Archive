@@ -1,0 +1,21 @@
+＠移植
+・マッチングのアルゴリズム
+
+☆memo
+・detectKeypointsの返り値はKeyPoint型の配列
+　KeyPoint.pt　→　(x座標,y座標)
+
+・computeDescriptorsの返り値は特徴量128次元ベクトル×キーポイント数の配列
+　→detectKeypoints[i][j].pt	i番目画像,j番目キーポイントの座標
+　　computeDescriptors[i][j]	i番目画像,j番目キーポイントの特徴量ベクトル
+
+・Dmatch型のインスタンス変数
+	matList = matchDescriptors(detailFile, qdes, tdes, matcher, qkp, tkp)
+	for mat in matList:
+		print len(mat) // KeyPointの個数
+		for m in mat:
+			print m.imgIdx, m.queryIdx ,m.trainIdx, m.distance
+	m.imgIdx // Dmatch(mat)のm番目のKeyPointに最も近いKeyPointはm.imgIdx[m.trainIdx]
+
+・drawMatchesがpythonに実装されていないため,周辺の描画関数を書き直す
+　一度trainデータ群の特徴量ベクトルをデータセットとしてファイルに書き出したほうがよさそう?
