@@ -1,0 +1,16 @@
+＠unity
+・画面サイズの決定
+　→パーティクルサイズは変更できないため，素材に合わせて決定する
+☆素材
+・http://ktk-kumamoto.hatenablog.com/　：　エフェクトサンプル集
+　竜巻		6~
+　オーラ	6~
+　爆発		20
+　レーザー	20
+　回復		6~
+　魔法攻撃	30
+　ヒット	~6
+
+※　パーティクルの衝突
+　http://bribser.co.jp/blog/particlesystem/
+

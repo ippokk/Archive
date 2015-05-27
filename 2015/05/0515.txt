@@ -1,0 +1,7 @@
+＠アルゴリズム変更
+・pythonのlist追加はforループでappendするよりもリスト内配列を使ったほうが
+　高速らしいので書き直し
+
+＠trainのソースに時間帯などが異なるデータを混入させる
+
+http://www.kameda-lab.org/private/photo/2013/index-j.html
