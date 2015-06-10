@@ -1,0 +1,9 @@
+＠F行列
+def findFMat(matchList):
+	st = time.time()
+	print "finding fundamental matrix"
+	ret = [cv2.findFundamentalMat(np.array([c.q_pt for c in mat]),\
+			np.array([c.t_pt for c in mat]), cv2.FM_RANSAC, 3, 0.99)[0]\
+			for mat in matchList]
+	print ">\telapsed time\t: " + str(round(time.time() - st, 3)) + "\tsec\n"
+	return ret
